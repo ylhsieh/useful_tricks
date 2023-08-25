@@ -234,7 +234,7 @@ sudo passwd jupyter
 ```
 
 
-(You should) Beaufity connected SSH terminal with **zsh**
+(You should) Beautify connected SSH terminal with **zsh**
 
 **Why**? The default `bash` has a problem of "backspace" button when you connect via ssh.
 
