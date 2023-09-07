@@ -37,3 +37,9 @@ def print_full(x):
     pd.reset_option('display.float_format')
     pd.reset_option('display.max_colwidth')
 ```
+
+# ffmpeg convert .mov to GIF
+```bash
+brew install ffmpeg
+ffmpeg -i 輸入檔名.mov -vf "fps=10,scale=600:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 輸出檔名.gif 
+```
