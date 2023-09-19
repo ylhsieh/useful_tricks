@@ -1,3 +1,6 @@
+# fix wrong encoding
+https://pypi.org/project/ftfy/
+
 # matplotlib set Chinese fonts
 
 ```python
